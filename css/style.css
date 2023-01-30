@@ -1,0 +1,165 @@
+
+/*--Nav Section Starts--*/
+.navbar {
+  background:greenyellow;
+
+  
+}
+
+.navbar .navbar-brand {
+  text-decoration: underline;
+  color: rgb(58, 11, 248);
+}
+
+.navbar .nav-item {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  display: unset !important;
+  text-transform: uppercase;
+  color: #000 !important;
+  font-weight: bold;
+  padding: 0 0 5px 0 !important;
+}
+
+.navbar .active-home {
+  border-bottom: 4px solid green;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 4px solid green;
+}
+
+/*--Nav Section Ends--*/
+/*--Home Section Starts--*/
+#home {
+  position: relative;
+  background: url("../img/sunset-1651426__480.webp"); 
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: center;
+  
+}
+.para{
+  text-decoration: underline;
+  font-size: 20px;
+  
+
+}
+.para1{
+  text-decoration: underline;
+margin-top: -20px; 
+font-size: 20px;
+}
+.para2{
+  margin-top: -40px
+ }
+
+/*--Home Section Ends--*/
+
+/*--About Section Starts--*/
+
+
+
+#about {
+  position: relative;
+  
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  background-position: center;
+ margin-top: -20px;
+ background-color: rgb(255, 255, 0);
+}
+.para3 {
+
+  font-size: 20px;
+  
+  
+
+}
+.fa-solid{
+  font-size: 50px;
+  margin-top: 15px;
+  color: rgb(228, 154, 15);
+  
+}
+.card-text {
+  font-size: 15px;
+  color:green;
+  
+}
+.card{
+  background-color: pink;
+}
+/*--About Section Ends--*/
+#henderit{   
+
+ background-color: rgb(255, 255, 0);
+
+}
+
+.romantic{text-align: center;
+   color: dimgrey; 
+   margin-top: -15px;
+  
+
+}
+/*--Contact Section Starts--*/
+#contact {
+  position: relative;
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#contact .dark-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  min-height: 600px;
+  top: -15PX;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact h2 {
+  color: #FFDF00;
+}
+
+#contact .btn {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .card{
+    margin-top: 20px;
+  }
+
+}
+@media (max-width: 420px) {
+  .para1{ 
+    text-decoration: none;
+  }
+  .para{ 
+    text-decoration: none;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .romantic{ 
+   padding-bottom: 30px;
+  }
+ 
+}
+
+   
+/*--Contact Section Ends--*/
+
+  
